@@ -751,14 +751,12 @@ footer p::before {
     }
 
     .hero-content {
-        padding-left: 1rem; /* Add some left padding */
-        padding-right: 1rem; /* Add some right padding for balance */
-        text-align: center; /* Re-center text if it was left-aligned */
+        max-width: 100%;
     }
 
     .hero h1 {
-        font-size: 1.75rem; /* Slightly reduce the font size */
-        line-height: 1.2; /* Improve line spacing if the text wraps */
+        font-size: 2rem;
+        margin-bottom: 0.625rem;
     }
 
     .hero p {
@@ -778,24 +776,27 @@ footer p::before {
     }
 
     .image-container {
-        margin-left: auto; /* Allow auto margin on left */
-        margin-right: 1rem; /* Add some right margin to shift it right */
-        width: 18rem; /* Slightly increase width if needed, adjust as per your preference */
+        width: 15.625rem; /* Reduced size */
+        height: 15.625rem; /* Reduced size */
+        margin: 0 auto; /* Center the image container */
     }
 
     .top {
-        left: -5rem; /* Adjust left position */
-        width: 7rem; /* Adjust width */
+        width: 6.25rem;
+        top: -1.25rem;
+        left: -4.375rem;
     }
 
     .middle {
-        left: 0rem; /* Adjust left position */
-        width: 10rem; /* Adjust width */
+        width: 8.75rem;
+        top: 1.875rem;
+        left: -0.625rem;
     }
 
     .bottom {
-        right: 0.5rem; /* Adjust right position */
-        width: 8rem; /* Adjust width */
+        width: 7.5rem;
+        bottom: -1.25rem;
+        right: 1.25rem;
     }
 
     .hero-image {
